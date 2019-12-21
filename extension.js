@@ -45,7 +45,7 @@ function toPascalCase(str) {
 function generateCsharp(type, attribute, Attribute) {
 	return `
         \tpublic ${type} ${Attribute} {
-        \tget { return ${attribute}; };
+        \tget { return ${attribute}; }
         \tset { ${attribute} = value; }
         \t} `;
 }
